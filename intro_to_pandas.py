@@ -4,7 +4,8 @@ import numpy as np
 pd.__version__
 
 
-# There are familiar Python dict/list operations that can
+# There are
+# familiar Python dict/list operations that can
 # be used to access data in pandas
 def accessing_data(city_names, population):
     cities = pd.DataFrame({'City name': city_names, 'Population': population})
